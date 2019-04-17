@@ -12,6 +12,7 @@
 #import "ColorDefine.h"
 #import "MethodDefine.h"
 #import "UIColor+StrColor.h"
+#import "BMHandle.h"
 
 
 #endif /* PrefixHeader_h */

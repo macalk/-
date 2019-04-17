@@ -22,6 +22,10 @@
 		340BE212225B5B6A000E4EB7 /* MACALKBaseNAVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 340BE211225B5B6A000E4EB7 /* MACALKBaseNAVC.m */; };
 		34AD7BE1225C60A20054F25F /* UIColor+StrColor.m in Sources */ = {isa = PBXBuildFile; fileRef = 34AD7BE0225C60A20054F25F /* UIColor+StrColor.m */; };
 		34AD7BE4225E3D660054F25F /* MACALKHomeDetialVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 34AD7BE3225E3D660054F25F /* MACALKHomeDetialVC.m */; };
+		34B9CA70226765C400A39DE3 /* BMHandle.m in Sources */ = {isa = PBXBuildFile; fileRef = 34B9CA6F226765C400A39DE3 /* BMHandle.m */; };
+		34B9CA7322676E4100A39DE3 /* AboutVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 34B9CA7222676E4100A39DE3 /* AboutVC.m */; };
+		34B9CA7622676E5200A39DE3 /* FankuiVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 34B9CA7522676E5200A39DE3 /* FankuiVC.m */; };
+		34B9CA7922676E6C00A39DE3 /* SetVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 34B9CA7822676E6C00A39DE3 /* SetVC.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -54,6 +58,14 @@
 		34AD7BE0225C60A20054F25F /* UIColor+StrColor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+StrColor.m"; sourceTree = "<group>"; };
 		34AD7BE2225E3D660054F25F /* MACALKHomeDetialVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MACALKHomeDetialVC.h; sourceTree = "<group>"; };
 		34AD7BE3225E3D660054F25F /* MACALKHomeDetialVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MACALKHomeDetialVC.m; sourceTree = "<group>"; };
+		34B9CA6E226765C400A39DE3 /* BMHandle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BMHandle.h; sourceTree = "<group>"; };
+		34B9CA6F226765C400A39DE3 /* BMHandle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BMHandle.m; sourceTree = "<group>"; };
+		34B9CA7122676E4100A39DE3 /* AboutVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AboutVC.h; sourceTree = "<group>"; };
+		34B9CA7222676E4100A39DE3 /* AboutVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AboutVC.m; sourceTree = "<group>"; };
+		34B9CA7422676E5200A39DE3 /* FankuiVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FankuiVC.h; sourceTree = "<group>"; };
+		34B9CA7522676E5200A39DE3 /* FankuiVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FankuiVC.m; sourceTree = "<group>"; };
+		34B9CA7722676E6C00A39DE3 /* SetVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SetVC.h; sourceTree = "<group>"; };
+		34B9CA7822676E6C00A39DE3 /* SetVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SetVC.m; sourceTree = "<group>"; };
 		52026508E3A89E622CBEEBE1 /* Pods-我的日记.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-我的日记.debug.xcconfig"; path = "Pods/Target Support Files/Pods-我的日记/Pods-我的日记.debug.xcconfig"; sourceTree = "<group>"; };
 		B5EB6139A58B197860D699C6 /* Pods-我的日记.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-我的日记.release.xcconfig"; path = "Pods/Target Support Files/Pods-我的日记/Pods-我的日记.release.xcconfig"; sourceTree = "<group>"; };
 		D055221C7A1BBA100A34A040 /* libPods-我的日记.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-我的日记.a"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -124,6 +136,12 @@
 			children = (
 				340BE20D225B58DC000E4EB7 /* MACALKMineVC.h */,
 				340BE20E225B58DC000E4EB7 /* MACALKMineVC.m */,
+				34B9CA7122676E4100A39DE3 /* AboutVC.h */,
+				34B9CA7222676E4100A39DE3 /* AboutVC.m */,
+				34B9CA7422676E5200A39DE3 /* FankuiVC.h */,
+				34B9CA7522676E5200A39DE3 /* FankuiVC.m */,
+				34B9CA7722676E6C00A39DE3 /* SetVC.h */,
+				34B9CA7822676E6C00A39DE3 /* SetVC.m */,
 			);
 			path = Mine;
 			sourceTree = "<group>";
@@ -164,6 +182,8 @@
 		34AD7BB4225C58AC0054F25F /* Common */ = {
 			isa = PBXGroup;
 			children = (
+				34B9CA6E226765C400A39DE3 /* BMHandle.h */,
+				34B9CA6F226765C400A39DE3 /* BMHandle.m */,
 				34AD7BDE225C608A0054F25F /* Category */,
 				34AD7BB7225C59200054F25F /* Define */,
 			);
@@ -327,6 +347,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				340BE209225B58B2000E4EB7 /* MACALKHomeVC.m in Sources */,
+				34B9CA7322676E4100A39DE3 /* AboutVC.m in Sources */,
+				34B9CA7622676E5200A39DE3 /* FankuiVC.m in Sources */,
+				34B9CA7922676E6C00A39DE3 /* SetVC.m in Sources */,
 				340BE1DF225B537D000E4EB7 /* ViewController.m in Sources */,
 				340BE1FA225B566F000E4EB7 /* MACALKBaseTabBarVC.m in Sources */,
 				340BE212225B5B6A000E4EB7 /* MACALKBaseNAVC.m in Sources */,
@@ -334,6 +357,7 @@
 				34AD7BE1225C60A20054F25F /* UIColor+StrColor.m in Sources */,
 				340BE20F225B58DC000E4EB7 /* MACALKMineVC.m in Sources */,
 				340BE1EA225B537F000E4EB7 /* main.m in Sources */,
+				34B9CA70226765C400A39DE3 /* BMHandle.m in Sources */,
 				340BE1DC225B537D000E4EB7 /* AppDelegate.m in Sources */,
 				340BE20C225B58C9000E4EB7 /* MACALKContentVC.m in Sources */,
 				34AD7BE4225E3D660054F25F /* MACALKHomeDetialVC.m in Sources */,

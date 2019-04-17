@@ -31,7 +31,7 @@
 
 - (void)configTabBar {
     
-    if (!self.showWeb) {
+    if ([BMHandle shareHandle].isMarket) {
         
         MACALKContentVC *contentVC = [[MACALKContentVC alloc]init];
         contentVC.view.backgroundColor = [UIColor whiteColor];
